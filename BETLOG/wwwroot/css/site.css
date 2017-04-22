@@ -20,18 +20,19 @@
 }
 
 .bg.rm {
+    margin:0 !important;
+    background-position:top;
     background-image: url(../images/backgroundReadMore.svg);
 }
 .bg.rm1{
     height:inherit;
-        font-family: 'Russo One', sans-serif;
+    background-position:top;
     background-image:url(../images/rm-1.svg);
-    margin-bottom:200px;
-
 }
 
 .bg.rm2 {
     height:inherit;
+    background-position:top;
     background-image: url(../images/rm-2.svg)
 }
 
@@ -121,6 +122,7 @@ h1 {
 }
 
 .btn-up {
+    margin-top:10px;
     width: 67px;
     height: 65px;
     border: none;
@@ -131,7 +133,20 @@ h1 {
 .btn-up:active {
     background-color: rgba(0, 0, 0, 0.00);
     background-image: url(../images/btnUp.png);
+}
+
+.btn-reg {
+    width: 144px;
+    height: 83px;
     border: none;
+    background-color: rgba(0, 0, 0, 0.00);
+    background-image: url(../images/btnReg.png);
+    margin-top:32px;
+}
+
+.btn-reg:active{
+    background-color: rgba(0, 0, 0, 0.00);
+    background-image: url(../images/btnReg.png);
 }
 
 button {

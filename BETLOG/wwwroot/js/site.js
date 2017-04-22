@@ -34,7 +34,7 @@ function detectIE() {
 
 $(document).ready(function () {
     $('#fullpage').fullpage({
-        scrollingSpeed: 1500,
+        scrollingSpeed: 1200,
         anchors:['main','readMore']
     });
     $.fn.fullpage.setMouseWheelScrolling(false);
@@ -46,7 +46,7 @@ $(document).ready(function () {
     $("#row1").css('height', (window).innerHeight / 3);
     $("bg").css('height', (window).innerHeight);
     $("#row2").css('height', ((window).innerHeight / 3) * 2);
-    $("#row3").css('height', (window).innerHeight / 2);
+    $("#row3").css('height', ((window).innerHeight / 2)-83);
     $("#row4").css('height', (window).innerHeight / 2);
 });
 $(function () {
@@ -55,7 +55,7 @@ $(function () {
         $("#row1").css('height', (window).innerHeight / 3);
         $("bg").css('height', (window).innerHeight);
         $("#row2").css('height', ((window).innerHeight / 3) * 2);
-        $("#row3").css('height', (window).innerHeight / 2);
+        $("#row3").css('height', ((window).innerHeight / 2) - 83);
         $("#row4").css('height', (window).innerHeight / 2);
     })
 })
