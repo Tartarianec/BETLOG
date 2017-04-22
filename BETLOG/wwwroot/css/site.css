@@ -1,37 +1,139 @@
 ﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+    background-image: url(../images/backgroundMain.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Russo One', sans-serif;
 }
 
-/* Wrapping element */
-/* Set some basic padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+.bg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: inherit;
 }
 
-/* Set widths on the form inputs since otherwise they're 100% wide */
-input,
-select,
-textarea {
-    max-width: 280px;
+.bg.lf {
+    height: inherit;
+    background-image: url(../images/backgroundLoginForm.svg); 
+    background-size: 400px;
 }
 
-/* Carousel */
-.carousel-caption p {
-    font-size: 20px;
-    line-height: 1.4;
+.bg.rm {
+    background-image: url(../images/backgroundReadMore.svg);
+}
+.bg.rm1{
+    height:inherit;
+    background-image:url(../images/rm-1.svg);
 }
 
-/* Make .svg files in the carousel display properly in older browsers */
-.carousel-inner .item img[src$=".svg"] {
-    width: 100%;
+.bg.rm2 {
+    height:inherit;
+    background-image: url(../images/rm-2.svg)
 }
 
-/* Hide/rearrange for smaller screens */
-@media screen and (max-width: 767px) {
-    /* Hide captions */
-    .carousel-caption {
-        display: none;
-    }
+.bg.rm3{
+    height:inherit;
+    background-image: url(../images/rm-3.svg)
 }
+
+.bg.rm4{
+    height:inherit;
+    background-image: url(../images/rm-4.svg)
+}
+
+
+
+.login-form {
+    justify-content: center;
+    float: none;
+    display: flex;
+    background-image: url(../images/ring.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 321px;
+}
+
+.header {
+    width: 400px;
+    height: inherit;
+    align-items: center;
+    justify-content: center;
+    float: none;
+    display: flex;
+}
+
+h1 {
+    color: white;
+    font-size: 60pt;
+    margin:0 auto;
+}
+.RM {    
+    color: rgb(153, 153, 153);
+    font-size: 12pt;
+}
+
+.RM:visited{
+    color: rgb(153, 153, 153);
+}
+
+.RM:hover{
+    color: whitesmoke;
+    font-size: 14pt;
+}
+
+
+
+.glyph{
+    color:white;
+    background-color:rgba(196, 196, 196, 0.5);
+    border:none;
+}
+
+.form-control {
+    border-radius: 0px;
+    background-color: rgba(62,68,82,0.36);
+    border:none;
+    color:rgb(153, 153, 153);
+}
+
+.btn-login{
+    border:none;
+    margin-top:20px;
+    background-color:rgba(0, 0, 0, 0.00);
+    background-image:url(../images/submit.png);
+    width:58px;
+    height:24px;
+}
+
+.btn-login:hover{
+    background-color:rgba(30, 32, 37, 0.82);
+}
+
+.btn-login:active{    
+    background-color:rgba(30, 31, 56, 0.8);
+    background-image:url(../images/submit.png);
+    border:none;
+}
+
+
+.btn-up {
+    width: 67px;
+    height: 65px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.00);
+    background-image: url(../images/btnUp.png);
+}
+
+
+
+.btn-up:active {
+    background-color: rgba(0, 0, 0, 0.00);
+    background-image: url(../images/btnUp.png);
+    border: none;
+}
+
+
+
+
+
+
