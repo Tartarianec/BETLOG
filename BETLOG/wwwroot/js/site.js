@@ -46,7 +46,7 @@ $(document).ready(function () {
     $("#row1").css('height', (window).innerHeight / 3);
     $("bg").css('height', (window).innerHeight);
     $("#row2").css('height', ((window).innerHeight / 3) * 2);
-    $("#row3").css('height', ((window).innerHeight / 2)-83);
+    $("#row3").css('height', (window).innerHeight);
     $("#row4").css('height', (window).innerHeight / 2);
 });
 $(function () {
@@ -55,7 +55,7 @@ $(function () {
         $("#row1").css('height', (window).innerHeight / 3);
         $("bg").css('height', (window).innerHeight);
         $("#row2").css('height', ((window).innerHeight / 3) * 2);
-        $("#row3").css('height', ((window).innerHeight / 2) - 83);
+        $("#row3").css('height', (window).innerHeight);
         $("#row4").css('height', (window).innerHeight / 2);
     })
 })

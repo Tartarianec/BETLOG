@@ -20,33 +20,11 @@
 }
 
 .bg.rm {
+    background-size:cover;
     margin:0 !important;
     background-position:top;
-    background-image: url(../images/backgroundReadMore.svg);
+    background-image: url(../images/backgroundReadMore2.svg);
 }
-.bg.rm1{
-    height:inherit;
-    background-position:top;
-    background-image:url(../images/rm-1.svg);
-}
-
-.bg.rm2 {
-    height:inherit;
-    background-position:top;
-    background-image: url(../images/rm-2.svg)
-}
-
-.bg.rm3{
-    height:inherit;
-    background-image: url(../images/rm-3.svg)
-}
-
-.bg.rm4{
-    height:inherit;
-    background-image: url(../images/rm-4.svg)
-}
-
-
 
 .login-form {
     justify-content: center;
@@ -153,6 +131,33 @@ button {
     outline: none !important;
 }
 
+
+
+
+
+
+.modal {
+}
+
+.vertical-alignment-helper {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.vertical-align-center {
+    /* To center vertically */
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.modal-content {
+    /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
+    width: 400px;
+    height: 600px;
+    /* To center horizontally */
+    margin: 0 auto;
+}
 
 
 
