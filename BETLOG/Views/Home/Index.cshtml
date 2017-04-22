@@ -4,12 +4,32 @@
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="vertical-alignment-helper">
         <div class="modal-dialog vertical-align-center">
-            <div class="modal-content" style="background-color:rgba(0, 0, 0, 0.75); ">
-                <div class="modal-header" style="border:none">
+            <div class="modal-content" style="background-color:rgba(0, 0, 0, 0.90); ">
+                <div class="modal-body" style="background-color:rgba(0, 0, 0, 0);height:inherit">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                </div>
-                <div class="modal-body" style="background-color:rgba(0, 0, 0, 0); color:white;">
-                    <p>ЗДЕСЬ БУДЕТ РАСПОЛОЖЕНА ФОРМА РЕГИСТРАЦИИ</p>
+                    <div class="container-fluid reg-form">
+                        <form role="form" data-toggle="validator" class="form-horizontal col-xs-8 col-xs-offset-2">
+                            <div class="form-group">
+                                <label for="inputEmail">Email:</label>
+                                <input type="email" class="form-control" id="inputEmail" placeholder="Email" required>            
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputPassword">Password:</label>
+                                <input type="password" data-minlength="8" class="form-control" id="inputPassword" placeholder="Password" required>
+                                <div class="help-block">Minimum of 8 characters</div>
+                            </div>
+                            <div class="form-group">
+                                <label for="confirmPassword">Confirm pasword:</label>                               
+                                <input type="password" class="form-control" id="inputPasswordConfirm" data-match="#inputPassword" data-match-error="Whoops, these don't match" placeholder="Confirm" required>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <br />
+                            <div class="form-group">
+                                <input type="submit" class="btn btn-success" value="Registration" />
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>

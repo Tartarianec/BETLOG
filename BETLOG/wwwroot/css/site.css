@@ -131,13 +131,11 @@ button {
     outline: none !important;
 }
 
-
-
-
-
-
-.modal {
+label{
+    font-size:14px;
 }
+
+
 
 .vertical-alignment-helper {
     display: table;
@@ -157,6 +155,13 @@ button {
     height: 600px;
     /* To center horizontally */
     margin: 0 auto;
+}
+
+.reg-form{
+    align-items:center;
+    display:flex;
+    height:inherit;
+    float:none;
 }
 
 
