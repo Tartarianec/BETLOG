@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="~/css/home.css" />
         <script src="~/lib/jquery/dist/jquery.js"></script>
         <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
-        <script src="~/js/home.js" asp-append-version="true"></script>        
+        <script src="~/js/home.js" asp-append-version="true"></script>
     </environment>
     <environment names="Staging,Production">
         <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"
@@ -37,12 +37,12 @@
     <script src="~/js/jquery.fullPage.min.js"></script>
     <link href="~/css/jquery.fullPage.css" type="text/css" rel="stylesheet" />
     <script src="~/js/validator.js"></script>
-</head>    
-    @Html.Raw(JavaScriptSnippet.FullScript)
-<body>    
+</head>
+@Html.Raw(JavaScriptSnippet.FullScript)
+<body>
     <div class="container body-content" style="height:inherit">
         @RenderBody()
-    </div>    
+    </div>
     @RenderSection("Scripts", required: false)
 </body>
 </html>

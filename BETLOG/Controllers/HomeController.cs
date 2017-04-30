@@ -8,6 +8,11 @@ namespace BETLOG.Controllers
 {
     public class HomeController : Controller
     {
+        public IActionResult Usermain()
+        {
+            return View("PersonalArea/Usermain");
+        }
+
         public IActionResult Index()
         {
             return View();
