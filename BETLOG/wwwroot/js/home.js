@@ -34,8 +34,7 @@ function detectIE() {
 
 $(document).ready(function () {
     $('#fullpage').fullpage({
-        scrollingSpeed: 1200,
-        anchors:['main','readMore']
+        anchors:['main']
     });
     $.fn.fullpage.setMouseWheelScrolling(false);
     $.fn.fullpage.setAllowScrolling(false);

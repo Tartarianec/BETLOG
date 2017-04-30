@@ -26,5 +26,17 @@
     "inputFiles": [
       "wwwroot/css/jquery.fullPage.css"
     ]
+  },
+  {
+    "outputFileName": "wwwroot/css/personalarea.min.css",
+    "inputFiles": [
+      "wwwroot/css/personalarea.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/js/personalarea.min.js",
+    "inputFiles": [
+      "wwwroot/js/personalarea.js"
+    ]
   }
 ]
